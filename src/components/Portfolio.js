@@ -13,9 +13,10 @@ const Portfolio = () => {
             {/* <hr className="gray-700 h-0 "></hr> */}
             <Hero />
             <About />
+            <Skills />
             {/* <Hero />
            
-            <Skills />
+          
             <Projects />
             <Contact />
             <Footer /> */}
