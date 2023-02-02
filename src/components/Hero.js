@@ -13,18 +13,18 @@ const Hero = () => {
                Take a look at my portfolio and let's 
                 start a conversation about how I can contribute to your team.
              </p>
-         </article>
-         <div className="flex  rounded-lg bg-gray-700 border border-gray-600 shadow-lg p-4 cursor-pointer ">
-            <a href="https://github.com/abdishukri-105 " target="_blank" className="text-white text-2xl mr-4 ">
+         </article> 
+         <div className="flex w-1/2 sm:w-1/4 justify-around  rounded-lg bg-gray-700 border border-gray-600 shadow-lg p-2 cursor-pointer ">
+            <a href="https://github.com/abdishukri-105  " target="_blank" className="text-white text-3xl  pt-2">
               <ion-icon name="logo-github"></ion-icon>
             </a>
-            <a href="https://twitter.com/AbdishukriMoh18" target="_blank" className="text-white text-2xl mr-4 ">
+            <a href="https://twitter.com/AbdishukriMoh18" target="_blank" className="text-white text-3xl pt-2  ">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
-            <a href="https://www.linkedin.com/in/abdishukri-mohamed/" target="_blank" className="text-white text-2xl mr-4">
+            <a href="https://www.linkedin.com/in/abdishukri-mohamed/" target="_blank" className="text-white text-3xl pt-2">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-            <div className="text-white text-2xl ">
+            <div className="text-white text-3xl pt-2 ">
              <ion-icon name="logo-whatsapp"></ion-icon>
             </div>
             
