@@ -5,10 +5,10 @@ const Navbar = () => {
 
     return ( 
      <header>
-        <nav className="w-full bg-gray-900 md:border-gray-800 md:border-b-2 md:border-t-0 md:border-r-0 md:border-l-0">
+        <nav className="w-full bg-gray-800 md:border-gray-600 md:border-b-2 md:border-t-0 md:border-r-0 md:border-l-0">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
+                    <div className="flex items-center justify-between py-3 md:py-3 md:block">
                         <a href="">
                             <h2 className="text-2xl text-teal-500 italic font-bold">AM</h2>
                         </a>
