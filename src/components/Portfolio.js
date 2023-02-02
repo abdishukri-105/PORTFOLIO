@@ -8,9 +8,10 @@ import Contact from "./Contact";
 
 const Portfolio = () => {
     return ( 
-        <div className=" bg-gray-900 h-screen">
+        <div className=" bg-gray-900 h-screen antialiased">
             <Navbar />
             {/* <hr className="gray-700 h-0 "></hr> */}
+            <Hero />
             {/* <Hero />
             <About />
             <Skills />
