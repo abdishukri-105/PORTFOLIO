@@ -14,7 +14,7 @@ const Hero = () => {
                 start a conversation about how I can contribute to your team.
              </p>
          </article> 
-         <div className="flex w-1/2 sm:w-1/4 justify-around  rounded-lg bg-gray-700 border border-gray-600 shadow-lg p-2 cursor-pointer ">
+         <div className="flex w-1/2 sm:w-1/4 justify-around  rounded-lg bg-gray-800 border border-gray-700 shadow-lg p-2 cursor-pointer ">
             <a href="https://github.com/abdishukri-105  " target="_blank" className="text-white text-3xl  pt-2">
               <ion-icon name="logo-github"></ion-icon>
             </a>

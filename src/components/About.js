@@ -2,7 +2,7 @@ import aboutImg from "../images/about-me-photo.jpg"
 
 const About = () => {
     return ( 
-        <div className="bg-gray-800   ">
+        <div className="   ">
           
             <h1 className="text-white text-3xl text-center pt-10 underline">About Me</h1>
             
