@@ -1,6 +1,6 @@
 const Skills = () => {
     return ( 
-        <div className="">
+        <div className="mb-20">
             <h1 className="text-teal-500 text-3xl text-center underline"> Skills</h1>
               <h1 className="text-white text-3xl text-center mt-8">Technologies i have worked with</h1>
             <div className="sm:grid  sm:grid-cols-4 grid gap-3 grid-cols-2  sm:gap-4   wrap mt-10 border border-gray-700 rounded-xl ml-6 mr-6 md:ml-40 md:mr-40 shadow-lg p-4">

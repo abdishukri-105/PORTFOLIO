@@ -14,10 +14,11 @@ const Portfolio = () => {
             <Hero />
             <About />
             <Skills />
+            <Projects />
             {/* <Hero />
            
           
-            <Projects />
+            
             <Contact />
             <Footer /> */}
         </div>
