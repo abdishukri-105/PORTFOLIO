@@ -10,7 +10,7 @@ const Projects = () => {
 
             <div className="sm:pl-24 sm:pr-24 sm:pt-12  ">
 
-                  <div className="sm:flex sm:justify-center gap-4  bg-teal-900 rounded-xl pb-20 pt-10">
+                  <div className="sm:flex sm:justify-center gap-4  bg-gray-800 rounded-xl pb-20 pt-10">
                         <div className="   object-cover basis-2/5 rounded-lg p-3">
                                 <img src={loops} alt="" className="    rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
                         </div>
@@ -28,19 +28,19 @@ const Projects = () => {
                                 
                              </p>
                             <p className="text-orange-200 p-4"> 
-                                <span className="shadow-lg rounded-xl mr-2 hover:text-yellow-300">#REACTJS</span>
-                                <span className="shadow-lg rounded-xl ">#TAILWIND CSS</span>
+                                <span className="shadow-lg rounded-xl mr-2 hover:text-orange-300">#REACTJS</span>
+                                <span className="shadow-lg rounded-xl hover:text-orange-300 ">#TAILWIND CSS</span>
                              </p> 
-                            <div className="flex relative justify-between ">
-                                <a href="https://github.com/abdishukri-105/loopstudios-landing-page" className="p-2  bg-orange-400 rounded-lg absolute right-2 shadow-2xl hover:bg-teal-300" target="_blank"> view code </a>
-                                <a href="https://loopstudios-landing-page-ivory.vercel.app/" target="_blank" className="p-2 bg-orange-400 rounded-lg  absolute left-2 shadow-2xl hover:bg-teal-300">live link </a>
+                            <div className="flex ">
+                                <a href="https://github.com/abdishukri-105/loopstudios-landing-page" className="p-2  bg-orange-500 rounded-lg mr-4 shadow-2xl hover:bg-orange-400" target="_blank"> view code </a>
+                                <a href="https://loopstudios-landing-page-ivory.vercel.app/" target="_blank" className="p-2 bg-orange-500 rounded-lg   shadow-2xl hover:bg-orange-400">live link </a>
                             </div>
                         </div>
                  </div>
                
-                 <div className="sm:flex sm:justify-center  bg-teal-800 rounded-xl mt-8 pb-20 pt-10">
-                       <div className="  rounded-2xl relative h-full basis-2/5 pt-10  p-3">
-                            <h2 className="text-teal-500 p-1  font-bold  hover:underline hover:cursor-pointer hover:text-teal-300">Loopstudios Landing Page</h2>
+                 <div className="sm:flex sm:justify-center  bg-gray-800 rounded-xl mt-8 pb-20 pt-10">
+                       <div className="  rounded-2xl relative h-full basis-2/5 p-3">
+                       <h2 className="text-orange-400 prose text-2xl p-1  font-bold  hover:underline hover:cursor-pointer ">e-commerce product page</h2>
                             <p className=" text-white prose "> 
                             an e-commerce page i built with just HTML, CSS, and JavaScript.
                              The project included key functionalities such as adding items to
@@ -48,6 +48,40 @@ const Projects = () => {
                                skills.  This project allowed me to solidify my understanding
                                  of JavaScript and gave me the confidence to continue learning and growing 
                                  as a developer.
+                            </p>
+                            <p className="text-orange-200  p-4"> 
+                                <span className="shadow-lg rounded-xl mr-3  hover:text-orange-300">#HTML</span>
+                                <span className="shadow-lg rounded-xl mr-3 ">#CSS</span>
+                                <span className="shadow-lg rounded-xl mr-3 ">#JS</span>
+                             </p> 
+                            <div className="flex relative justify-between ">
+                                <a href="" target="_blank" className="p-2 bg-orange-500 rounded-lg absolute right-2 shadow-2xl hover:bg-orange-400">view code </a>
+                                <a href="" target="_blank" className="p-2 bg-orange-500 rounded-lg  absolute left-2 shadow-2xl hover:bg-orange-400">live link </a>
+                            </div>
+                       </div>
+                       <div className="  relative   basis-2/5 rounded-lg p-3">
+                                <img src={ecommerce} alt="" className=" p-2   h-full  rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
+                        </div>
+                 </div>
+
+                 <div className="sm:flex sm:justify-center bg-gray-800 rounded-xl mt-8 gap-4 pb-20 pt-10">
+                        <div className="  relative  object-cover basis-2/5 rounded-lg p-3">
+                                <img src={advice} alt="" className=" p-2 h-full  rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
+                        </div>
+                       <div className="  rounded-2xl relative h-full  basis-2/5   p-3">
+                       <h2 className="text-orange-400 prose text-2xl p-1  font-bold  hover:underline hover:cursor-pointer ">Advice generator app</h2>
+                            <p className=" text-white prose ">
+                               
+                               This project 
+                               allowed me to practice CRUD operations in 
+                               JavaScript while using HTML and CSS to build 
+                               the front-end. I took a mobile-first approach
+                                for the first time as a developer, which was 
+                                a fun challenge. This project was a great opportunity
+                                 for me to improve my skills and deepen my understanding 
+                                 of how to use JavaScript to interact with APIs. I'm proud
+                                of the end result and I am confident that I can continue 
+                                to build more complex applications in the future."
                             </p>
                             <p className="text-yellow-500 p-4"> 
                                 <span className="shadow-lg rounded-xl  hover:text-yellow-300">#REACTJS</span>
@@ -58,34 +92,15 @@ const Projects = () => {
                                 <button className="p-2 bg-teal-500 rounded-lg  absolute left-2 shadow-2xl hover:bg-teal-300">live link </button>
                             </div>
                        </div>
-                       <div className="  relative shadow-2xl  basis-2/5 rounded-lg p-3">
-                                <img src={ecommerce} alt="" className=" p-2  border h-full  rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
-                        </div>
                  </div>
 
-                 <div className="sm:flex sm:justify-center bg-teal-900 rounded-xl mt-8 gap-4 pb-20 pt-10">
-                        <div className="  relative shadow-2xl object-cover basis-2/5 rounded-lg p-3">
-                                <img src={advice} alt="" className=" p-2 h-full border  rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
-                        </div>
-                       <div className="  rounded-2xl relative h-full  basis-2/5 pt-10  p-3">
-                            <h2 className="text-teal-500 p-1  font-bold  hover:underline hover:cursor-pointer hover:text-teal-300">Loopstudios Landing Page</h2>
-                            <p className=" text-white prose "> landing page of loopstudios a challenge from frontend mentor  landing page of loopstudios a challenge from frontend mentor Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum libero neque beatae ad harum. Ut doloribus quia quisquam necessitatibus..</p>
-                            <p className="text-yellow-500 p-4"> 
-                                <span className="shadow-lg rounded-xl  hover:text-yellow-300">#REACTJS</span>
-                                <span className="shadow-lg rounded-xl ">#TAILWIND CSS</span>
-                             </p> 
-                            <div className="flex relative justify-between ">
-                                <button className="p-2 bg-teal-500 rounded-lg absolute right-2 shadow-2xl hover:bg-teal-300">view code </button>
-                                <button className="p-2 bg-teal-500 rounded-lg  absolute left-2 shadow-2xl hover:bg-teal-300">live link </button>
-                            </div>
-                       </div>
-                 </div>
-
-                 <div className="sm:flex sm:justify-center gap-4 bg-teal-800 mt-8 rounded-xl pb-20 pt-10">
+                 <div className="sm:flex sm:justify-center gap-4 bg-gray-800 mt-8 rounded-xl pb-20 pt-10">
                      
                        <div className="  rounded-2xl relative h-full  basis-2/5   p-3">
                             <h2 className="text-teal-500 p-1  font-bold  hover:underline hover:cursor-pointer hover:text-teal-300">Loopstudios Landing Page</h2>
-                            <p className=" text-white prose "> landing page of loopstudios a challenge from frontend mentor  landing page of loopstudios a challenge from frontend mentor Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum libero neque beatae ad harum. Ut doloribus quia quisquam necessitatibus..</p>
+                            <p className=" text-white prose "> 
+                               This project was a credit card application built using React and TailwindCSS. I used states and took a mobile-first approach with Tailwind, which was a lot of fun. This project allowed me to deepen my understanding of React forms and state management. I learned a lot and I am now more confident in my ability to implement these skills in future projects. This project was also from Frontend Mentor, providing a challenging but rewarding experience.
+                            </p>
                             <p className="text-yellow-500 p-4"> 
                                 <span className="shadow-lg rounded-xl  hover:text-yellow-300">#REACTJS</span>
                                 <span className="shadow-lg rounded-xl ">#TAILWIND CSS</span>
@@ -95,10 +110,12 @@ const Projects = () => {
                                 <button className="p-2 bg-teal-500 rounded-lg  absolute left-2 shadow-2xl hover:bg-teal-300">live link </button>
                             </div>
                        </div>
-                       <div className="  relative shadow-2xl object-cover basis-2/5 rounded-lg p-3">
-                                <img src={desktop} alt="" className=" p-2  border  rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
+                       <div className="   object-cover basis-2/5 rounded-lg p-3">
+                                <img src={desktop} alt="" className=" p-2    rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
                         </div>
                  </div>
+
+                 <h1 className=" text-6xl p-2 bg-teal-500 rounded-xl w-1/3 text-center flex justify-center m-5">see more</h1>
 
          
 
