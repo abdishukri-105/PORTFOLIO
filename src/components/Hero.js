@@ -8,11 +8,11 @@ const Hero = () => {
           <article className=" text-white w-full md:w-2/3  p-5  mb-3 md:prose prose-xl">
              <p className="md:text-center  text-white">  Hello, i'm <span className=" text-teal-500 text-2xl mb-3 font-bold">Abdishukri Mohamed</span > </p>
              <p className="text-gray-300 text-xl">
-                a aspiring full-stack software developer from Nairobi, Kenya .
+                a aspiring full-stack software developer from Nairobi, Kenya
                 I'm passionate about technology and constantly learning new skills to enhance my abilities. 
                Take a look at my portfolio and let's 
                 start a conversation about how I can contribute to your team.
-             </p>
+             </p> 
          </article> 
          <div className="flex w-1/2 sm:w-1/4 justify-around  rounded-lg bg-gray-800 border border-gray-700 shadow-lg p-2 cursor-pointer ">
             <a href="https://github.com/abdishukri-105  " target="_blank" className="text-white text-3xl  pt-2">

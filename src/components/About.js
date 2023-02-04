@@ -6,9 +6,9 @@ const About = () => {
           
             <h1 className="text-teal-500 text-3xl text-center pt-10 underline">About Me</h1>
             
-            <div className="sm:flex justify-around   sm:mt-10">
+            <div className="lg:flex justify-around   md:mt-10">
             <div className="rounded-lg   mt-5 sm:ml-12 "> 
-                <img src={aboutImg} alt="" className="object-cover ml-12 w-3/4 h-3/4 sm:w-full rounded-2xl "/>
+                <img src={aboutImg} alt="" className="object-cover ml-12 w-3/4 lg:w-full md:w-3/4  md:h-3/4  rounded-2xl "/>
             </div>
             <p className="text-gray-100 prose  h-2/3 sm:mr-16 sm:ml-16 md:pt-10 sm:leading-9 rounded-2xl    sm:text-justify p-8 sm:p-5 "  >
                 I'm a full-stack software developer from Nairobi, Kenya, with a Bachelor's 
