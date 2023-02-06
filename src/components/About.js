@@ -1,5 +1,5 @@
 import aboutImg from "../images/about-me-photo.jpg"
-
+import shukri from "../images/shukri.jpg"
 const About = () => {
     return ( 
         <div className="   ">
@@ -8,7 +8,7 @@ const About = () => {
             
             <div className="lg:flex justify-around   md:mt-10">
             <div className="rounded-lg   mt-5 sm:ml-12 "> 
-                <img src={aboutImg} alt="" className="object-cover ml-12 w-3/4 lg:w-full md:w-3/4  md:h-3/4  rounded-2xl "/>
+                <img src={shukri} alt="" className="object-cover ml-12 w-3/4 lg:w-full md:w-3/4  md:h-3/4  rounded-2xl "/>
             </div>
             <p className="text-gray-100 prose  h-2/3 sm:mr-16 sm:ml-16 md:pt-10 sm:leading-9 rounded-2xl    sm:text-justify p-8 sm:p-5 "  >
                 I'm a full-stack software developer from Nairobi, Kenya, with a Bachelor's 

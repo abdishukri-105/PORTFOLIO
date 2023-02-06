@@ -1,10 +1,11 @@
 // import herImage from "../images/hero.jpg"
 import herImage2 from "../images/hero2.jpg"
-
+import shukri from "../images/shukri.jpg"
+import shukri2 from "../images/shukri2.jpg"
 const Hero = () => {
     return (
         <div className=" mt-7 grid place-items-center mr-4 p-3 md:p-0">
-          <img src={herImage2} alt=""  className=" border-slate-600 border-8 items-center  h-40 w-40 md:h-48 md:w-48 rounded-full"/>
+          <img src={shukri2} alt=""  className=" border-slate-600 border-8 items-center  h-40 w-40 md:h-48 md:w-48 rounded-full"/>
           <article className=" text-white w-full md:w-2/3  p-5  mb-3 md:prose prose-xl">
              <p className="md:text-center  text-white">  Hello, i'm <span className=" text-teal-500 text-2xl mb-3 font-bold">Abdishukri Mohamed</span > </p>
              <p className="text-gray-300 text-xl">

@@ -2,7 +2,7 @@ import loops from "../images/loopstudios.jpg"
 import ecommerce from "../images/e-commerce-screenshot.png"
 import advice from "../images/active-states.jpg"
 import desktop from "../images/desktop-preview.jpg"
-
+import shukri from "../images/shukri.jpg"
 const Projects = () => {
     return ( 
         <section>
@@ -118,9 +118,22 @@ const Projects = () => {
                         </div>
                  </div>  
             </div>
-            <div className=" flex justify-center ">
-              <a href="https://github.com/abdishukri-105?tab=repositories" target="_blank" className=" prose-xl w-64 p-y-2  bg-orange-500 rounded-xl sgadow-xl text-center hover:bg-orange-600 hover:cursor-pointer ">see more projects</a>
+            <div className="flex justify-center  items-center">
+                <div className=" justify-center bg-gray-800 w-1/3 py-6 border border-gray-700 rounded-xl flex items-center ">
+                <a href="https://github.com/abdishukri-105?tab=repositories" target="_blank" className=" prose-xl w-32 p-y-2  bg-orange-500 rounded-xl sgadow-xl text-center hover:bg-orange-600 hover:cursor-pointer ">see more </a>
+                </div>
             </div>
+           
+            <div className="flex justify-center mt-20 items-center">
+                <div class=" bg-gray-800 h-64 mt-20 w-2/4  rounded-xl shadow-lg">
+                    <div class=" p-10 text-white text-center">
+                        <h1 class="text-3xl mb-5 font-medium">Get in Touch</h1>
+                        <p class="text-lg mb-9">Looking to collaborate on a project or hire me for a gig? Let's make it happen!</p>
+                        <a href="#" class="btn bg-orange-500 hover:bg-orange-600 mt-10 font-medium py-2 px-4 rounded-xl">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
         
     </section>
