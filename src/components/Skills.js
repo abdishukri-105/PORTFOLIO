@@ -1,7 +1,7 @@
 const Skills = () => {
     return ( 
         <div className="mb-20">
-            <h1 className="text-teal-500 text-3xl text-center underline"> Skills</h1>
+            {/* <h1 className="text-teal-500 text-3xl text-center underline"> Skills</h1> */}
               <h1 className="text-white text-3xl text-center mt-8">Technologies i have worked with</h1>
             <div className="sm:grid  sm:grid-cols-4 grid gap-3 grid-cols-2  sm:gap-4   wrap mt-10 border border-gray-700 rounded-xl ml-6 mr-6 md:ml-40 md:mr-40 shadow-lg p-4">
                 <div className="text-white p-3 grid justify-center text-5xl shadow-xl  bg-gray-800  rounded-xl transition ease-in-out delay-600 duration-300 hover:-translate-y-1 hover:scale-110  ">

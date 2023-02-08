@@ -3,6 +3,7 @@ import ecommerce from "../images/e-commerce-screenshot.png"
 import advice from "../images/active-states.jpg"
 import desktop from "../images/desktop-preview.jpg"
 import shukri from "../images/shukri.jpg"
+import call from "../images/call.jpg"
 const Projects = () => {
     return ( 
         <section>
@@ -13,7 +14,7 @@ const Projects = () => {
 
                   <div className="lg:flex lg:justify-center gap-4  rounded-xl pb-20 md:pt-10">
                         <div className="   object-cover basis-2/5 rounded-lg p-3">
-                                <img src={loops} alt="" className="    rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
+                                <img src={loops} alt="" className="    rounded-2xl hover:cursor-pointer "/>    
                         </div>
                         <div className="  rounded-2xl relative h-full  basis-2/5   p-3">
                             <h2 className="text-orange-400 prose text-2xl p-1  font-bold  hover:underline hover:cursor-pointer hover:text-orange-300">Loopstudios Landing Page</h2>
@@ -61,13 +62,13 @@ const Projects = () => {
                             </div>
                        </div>
                        <div className="  relative   basis-2/5 rounded-lg p-3">
-                                <img src={ecommerce} alt="" className=" p-2   h-full  rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
+                                <img src={ecommerce} alt="" className=" p-2   h-full  rounded-2xl hover:cursor-pointer "/>    
                         </div>
                  </div>
 
                  <div className="sm:flex sm:justify-center  rounded-xl mt-8 gap-4 pb-20 pt-10">
                         <div className="  relative  object-cover basis-2/5 rounded-lg p-3">
-                                <img src={advice} alt="" className=" p-2 h-full  rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
+                                <img src={advice} alt="" className=" p-2 h-full  rounded-2xl hover:cursor-pointer "/>    
                         </div>
                        <div className="  rounded-2xl relative h-full  basis-2/5   p-3">
                        <h2 className="text-orange-400 prose text-2xl p-1  font-bold  hover:underline hover:cursor-pointer ">Advice generator app</h2>
@@ -114,25 +115,28 @@ const Projects = () => {
                             </div>
                        </div>
                        <div className="   object-cover basis-2/5 rounded-lg p-3">
-                                <img src={desktop} alt="" className=" p-2    rounded-2xl hover:cursor-pointer transition duration-300 delay-100 hover:ease-in-out hover:scale-110"/>    
+                                <img src={desktop} alt="" className=" p-2    rounded-2xl hover:cursor-pointer "/>    
                         </div>
                  </div>  
             </div>
             <div className="flex justify-center  items-center">
-                <div className=" justify-center bg-gray-800 w-1/3 py-6 border border-gray-700 rounded-xl flex items-center ">
-                <a href="https://github.com/abdishukri-105?tab=repositories" target="_blank" className=" prose-xl w-32 p-y-2  bg-orange-500 rounded-xl sgadow-xl text-center hover:bg-orange-600 hover:cursor-pointer ">see more </a>
+                <div className=" justify-center bg-gray-800 sm:w-1/3 w-2/3 p-4 sm:py-6 border border-gray-700 rounded-xl flex items-center ">
+                <a href="https://github.com/abdishukri-105?tab=repositories" target="_blank" className=" prose-xl sm:w-32 sm:p-y-2 p-3  bg-orange-500 rounded-xl sgadow-xl text-center hover:bg-orange-600 hover:cursor-pointer ">see more </a>
                 </div>
             </div>
            
-            <div className="flex justify-center mt-20 items-center">
-                <div class=" bg-gray-800 h-64 mt-20 w-2/4  rounded-xl shadow-lg">
-                    <div class=" p-10 text-white text-center">
+            {/* <div className="flex justify-center mt-20 items-center ">
+                <div class=" bg-gray-800 border flex border-gray-700 p-4 mt-20 w-3/4  rounded-xl shadow-lg">
+                    <div className="rounded-lg sm:ml-12  w-40"> 
+                        <img src={call} alt="telephone" className="object-cover rounded-lg  "/>
+                    </div>
+                    <div class="  text-white text-center">
                         <h1 class="text-3xl mb-5 font-medium">Get in Touch</h1>
                         <p class="text-lg mb-9">Looking to collaborate on a project or hire me for a gig? Let's make it happen!</p>
                         <a href="#" class="btn bg-orange-500 hover:bg-orange-600 mt-10 font-medium py-2 px-4 rounded-xl">Contact Me</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
         

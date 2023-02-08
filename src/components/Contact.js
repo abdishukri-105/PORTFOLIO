@@ -1,6 +1,6 @@
 const Contact = () => {
     return ( 
-        <div className="h-screen">
+        <div className="">
           
         </div>
      );
