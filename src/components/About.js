@@ -4,7 +4,7 @@ const About = () => {
     return ( 
         <div className="   ">
           
-            <h1 className="text-teal-500 text-3xl text-center pt-10 underline">About Me</h1>
+            <h1 className="text-orange-500 text-3xl text-center pt-10 underline">About Me</h1>
             
             <div className="lg:flex justify-around   md:mt-10">
             <div className="rounded-lg   mt-5 sm:ml-12 "> 
@@ -14,8 +14,7 @@ const About = () => {
                 I'm a full-stack software developer from Nairobi, Kenya, with a Bachelor's 
                 degree in Information Technology from Jomo Kenyatta University of Agriculture and 
                 Technology. Driven by my passion for technology and a desire to create 
-                innovative solutions, I have 2 years of experience in web
-                 development. My expertise spans across various technologies, including
+                innovative solutions. My expertise spans across various technologies, including
                   HTML, CSS, BOOTSTRAP, TAILWINDCSS, JAVASCRIPT and REACTJS . My goal is to continue 
                   to expand my skills and contribute to projects that make a positive impact.
                    Let's work together to bring your ideas to life."

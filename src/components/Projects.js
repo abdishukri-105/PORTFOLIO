@@ -8,7 +8,7 @@ const Projects = () => {
     return ( 
         <section>
         <div className="  ">
-            <h1 className="text-3xl text-teal-500 text-center underline ">Projects</h1>
+            <h1 className="text-3xl text-orange-500 text-center underline ">Projects</h1>
 
             <div className="  mr-8 ml-8 mt-12  ">
 
@@ -120,8 +120,8 @@ const Projects = () => {
                  </div>  
             </div>
             <div className="flex justify-center  items-center">
-                <div className=" justify-center bg-gray-800 sm:w-1/3 w-2/3 p-4 sm:py-6 border border-gray-700 rounded-xl flex items-center ">
-                <a href="https://github.com/abdishukri-105?tab=repositories" target="_blank" className=" prose-xl sm:w-32 sm:p-y-2 p-3  bg-orange-500 rounded-xl sgadow-xl text-center hover:bg-orange-600 hover:cursor-pointer ">see more </a>
+                <div className=" justify-center bg-gray-800 sm:w-1/3 w-2/3 p-4 sm:py-4 border border-gray-700 rounded-xl flex items-center ">
+                <a href="https://github.com/abdishukri-105?tab=repositories" target="_blank" className="   sm:w-32 sm:p-y-1 p-3  bg-orange-500 rounded-xl shadow-xl text-center hover:bg-orange-600 hover:cursor-pointer ">see more </a>
                 </div>
             </div>
            
