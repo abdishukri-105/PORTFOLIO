@@ -9,11 +9,12 @@ import Contact from "./Contact";
 const Portfolio = () => {
     return ( 
         <div className=" bg-gra antialiased">
+            
             <Navbar />
             {/* <hr className="gray-700 h-0 "></hr> */}
-            <Hero />
-            {/* <About />
-            <Skills />
+            <Hero  />
+            <About />
+           {/*  <Skills />
             <Projects />
             <Contact />
             <Footer />  */}

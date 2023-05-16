@@ -6,7 +6,7 @@ import shukri3 from "../images/mf-avatar.svg"
 
 const Hero = () => {
     return (
-        <div className=" mt-10 grid place-items-center mr-4 p-3 md:p-0">
+        <div className=" mt-10 grid place-items-center mr-4 p-3 md:p-0 mb-44">
          
          <div className="flex flex-col">
             <div className="text-white w-full p-5 mb-7">
@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className="font-sans font-bold text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6">
                   Designer & Frontend Developer
                 </h1>
-                <h3 className="text-base sm:text-xl">I design and code beautifully simple things, and I love what I do.</h3>
+                <p className="text-base prose sm:text-xl">I design and code beautifully simple things, and I love what I do.</p>
               </p>
             </div>
             <div className="flex justify-center items-center">
