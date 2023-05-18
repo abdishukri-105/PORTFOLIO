@@ -8,7 +8,11 @@ import call from "../images/call.jpg";
 const Projects = () => {
   return (
     <section className="mb-8 mt-8 mx-4 md:mx-8 lg:mx-16">
-        <h1></h1>
+        <div className="mb-16">
+            <h1 className="text-3xl mb-6 font-bold text-center">My Recent Work  </h1>
+            <p className="text-center text-lg">Here are a few past projects I've worked on. Want to   
+              <span className="ml-2 underline hover:cursor">see more?</span></p> 
+        </div>
       <div className="max-w-screen-xl mx-auto grid grid-cols-1  gap-8 md:grid-cols-2 xl:grid-cols-3">
         <div className="relative h-56">
           <div
