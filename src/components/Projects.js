@@ -5,7 +5,7 @@ import desktop from "../images/desktop-preview.jpg";
 import shukri from "../images/shukri.jpg";
 import call from "../images/call.jpg";
 
-const Projects = () => {
+const  Projects = () => {
   return (
     <section className="mb-8 mt-8 mx-4 md:mx-8 lg:mx-16 ">
       <div className="mb-16">
@@ -46,8 +46,22 @@ const Projects = () => {
             className="bg-cover bg-center h-full rounded-xl hover:cursor-pointer"
             style={{ backgroundImage: `url(${ecommerce})` }}
           ></div>
-          <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center opacity-100 hover:opacity-100 transition-opacity duration-300 bg-orange-600 bg-opacity-80 rounded-xl">
-            <h3 className="text-white text-center text-xl font-bold">E-commerce Product Page</h3>
+             <div className=" absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center opaciy-0 opacity-100 transition-opacity duration-300 bg-orange-600 bg-opacity-80 rounded-xl">
+                <h3 className="text-white mb-4 text-center text-xl font-bold opacity-100 hover:opacity-0 transition-opacity duration-300">
+                      Loopstudios Landing Page
+                </h3>
+                <div className="opacity-0 hover:opacity-100 transition-opacity duration-300">
+                    <p className="text-white text-center ">
+                        Brief description of the Loopstudios Landing Page project...
+                    </p>
+                    <div className="mt-9 text-center ">
+                        {/* <a href="https://github.com/your-username/loopstudios" target="_blank"  rel="noopener noreferrer" className="text-gray-300 hover:text-white"
+                        > GitHub Repo </a>
+                        <span className="mx-2 text-gray-300">|</span> */}
+                        <a href="https://example.com/loopstudios-demo" target="_blank"  rel="noopener noreferrer"  className="text-gray-300  border-2 border-gray-600 rounded-full px-5 py-3 hover:bg-gray-600"
+                        > visit website </a>
+                    </div>
+                </div>
           </div>
         </div>
 
