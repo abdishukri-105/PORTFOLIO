@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Footer from "./Footer";
-import Contact from "./Contact";
+
 
 const Portfolio = () => {
     return ( 
@@ -12,15 +12,17 @@ const Portfolio = () => {
             
             <Navbar  />
             {/* <hr className="gray-700 h-0 "></hr> */}
-            <Hero className=" " />
-            <About />
+             <Hero />
+            
+             <About />
             <div className="bg-gray-100"> 
-            <Projects  />
+              <Projects  />
             </div>
+           
            
            {/*  
              <Skills />
-            <Contact />
+          
             <Footer />  */}
         </div>
      );
