@@ -11,13 +11,13 @@ const Hero = () => {
   
   return (
     <div className="bg-gray-100 h-screen flex">
-      <div className="flex-shrink-0 w-1/8 mt-40 hidden lg:block">
+      <div className="flex-shrink-0 w-1/8 mt-64 hidden lg:block">
         <Contact />
       </div>
-      <div className="flex flex-col justify-center items-center flex-grow">
+      <div className="flex flex-col justify-center items-center flex-grow mt-10 lg:mt-40">
         <div className="text-black w-full p-5 mb-7">
           <h1 className="font-sans tracking-widest font-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-10">
-            HEY, I'M Abdishukri Mohamed
+            <strong style={{ fontWeight: "bolder" }}>HEY, I'M Abdishukri Mohamed</strong>
           </h1>
           <p className="lg:ml-44 text-center prose sm:text-xl ">
             A Frontend focused Web Developer building the Frontend of Websites
