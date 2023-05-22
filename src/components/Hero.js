@@ -6,15 +6,15 @@ import shukri3 from "../images/mf-avatar.svg"
 
 const Hero = () => {
     return (
-        <div className=" mt-10 grid place-items-center mr-4 p-3 md:p-0 mb-44">
+        <div className="bg-gray-100 h-screen  grid place-items-center  p-3 md:p-0 ">
          
          <div className="flex flex-col">
             <div className="text-white w-full p-5 mb-7">
               <p className="text-black font-sans">
-                <h1 className="font-sans font-bold text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6">
-                  Designer & Frontend Developer
+                <h1 className="font-sans font-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-6">
+                  HEY, I'M Abdishukri Mohamed 
                 </h1>
-                <p className="text-base prose sm:text-xl">I design and code beautifully simple things, and I love what I do.</p>
+                <p className="text-base text-center prose sm:text-xl">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
               </p>
             </div>
             <div className="flex justify-center items-center">
