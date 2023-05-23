@@ -17,13 +17,13 @@ const Portfolio = () => {
              <About />
              <Projects  />
              <Form/>
-           
+             <Footer /> 
            {/*  
           <div className="bg-gray-100"> 
            
             </div>
           
-            <Footer />  */}
+           */}
         </div>
      );
 }
