@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Projects from "./Projects";
 
 import Footer from "./Footer";
+import Form from "./Form";
 
 
 const Portfolio = () => {
@@ -15,7 +16,7 @@ const Portfolio = () => {
              <Hero />
              <About />
              <Projects  />
-           
+             <Form/>
            
            {/*  
           <div className="bg-gray-100"> 
