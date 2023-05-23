@@ -10,7 +10,7 @@ import Contact from "./Contact";
 const Hero = () => {
   
   return (
-    <div className="bg-gray-100 h-screen flex">
+    <div className=" h-screen flex lg:mb-40">
       <div className="flex-shrink-0 w-1/8 mt-64 hidden lg:block">
         <Contact />
       </div>
