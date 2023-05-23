@@ -4,7 +4,7 @@ import herImage2 from "../images/hero2.jpg";
 import shukri from "../images/shukri.jpg";
 import shukri2 from "../images/shukri2.jpg";
 import shukri3 from "../images/mf-avatar.svg";
-import bg from "../images/bg.jpg";
+// import bg from "../images/bg.jpg";
 import Contact from "./Contact";
 
 const Hero = () => {
