@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { forwardRef }  from 'react';
 
-const Form = () => {
+const Form = forwardRef((props, ref) => {
   return (
-    <section>
+    <section ref={ref}>
       <div className='mb-20'>
         <h2 className="text-center text-4xl font-bold">CONTACT</h2>
         <p className="text-center ">
@@ -57,6 +57,6 @@ const Form = () => {
       </form>
     </section>
   );
-};
+});
 
 export default Form;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Navbar = () => {
+const Navbar = ({ scrollToRef, heroRef, aboutRef, projectsRef, formRef }) => {
   const [navbar, setNavbar] = useState(false);
 
   const navbarStyle = {
@@ -9,12 +9,19 @@ const Navbar = () => {
     zIndex: 50,
     backgroundColor: "white",
     width: "100%",
-    /* Add other styles as needed */
+  };
+
+  const handleNavLinkClick = (ref) => {
+    setNavbar(false);
+    scrollToRef(ref);
   };
 
   return (
     <header>
-     <nav style={navbarStyle} className="shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0 bg-white">
+      <nav
+        style={navbarStyle}
+        className="shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0 bg-white"
+      >
         <div className="justify-between px-4 py-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-3 md:block">
@@ -69,20 +76,17 @@ const Navbar = () => {
             >
               <ul className="items-center uppercase font-semibold justify-center text-black space-y-8 md:flex md:space-x-16 md:space-y-0">
                 <li className="hover:text-purple-500">
-                  <a href="">Home</a>
+                  <button onClick={() => handleNavLinkClick(heroRef)}>Home</button>
                 </li>
                 <li className="hover:text-purple-500">
-                  <a href="">About</a>
+                  <button onClick={() => handleNavLinkClick(aboutRef)}>About</button>
                 </li>
                 <li className="hover:text-purple-500">
-                  <a href="">project</a>
+                  <button onClick={() => handleNavLinkClick(projectsRef)}>Projects</button>
                 </li>
                 <li className="hover:text-purple-500">
-                  <a href="">contact</a>
+                  <button onClick={() => handleNavLinkClick(formRef)}>Contact</button>
                 </li>
-                {/* <li className="border px-4 py-2 text-purple-600 font-bold rounded-2xl border-purple-600 border-spacing-4 ">
-                                <a href="" className="text-xl">connect</a>
-                            </li>  */}
               </ul>
             </div>
           </div>
