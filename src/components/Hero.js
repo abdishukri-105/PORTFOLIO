@@ -6,6 +6,7 @@ import shukri2 from "../images/shukri2.jpg";
 import shukri3 from "../images/mf-avatar.svg";
 // import bg from "../images/bg.jpg";
 import Contact from "./Contact";
+import {Link} from "react-router-dom"
 
 const Hero = () => {
   
@@ -25,14 +26,10 @@ const Hero = () => {
             product
           </p>
         </div>
-        <button className="bg-purple-800 shadow-lg px-10 py-3 rounded-md text-lg font-bold text-white uppercase tracking-widest">Projects</button>
-        {/* <div className="flex justify-center items-center">
-          <img
-            src={shukri3}
-            alt=""
-            className="h-40 w-40 md:h-48 md:w-48 rounded-full"
-          />
-        </div> */}
+        <Link to="/projects" className="bg-purple-800 shadow-lg px-10 py-3 rounded-md text-lg font-bold text-white uppercase tracking-widest">
+          Projects
+        </Link>
+     
       </div>
     </div>
   );

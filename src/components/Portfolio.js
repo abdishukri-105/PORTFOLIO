@@ -5,26 +5,30 @@ import Projects from "./Projects";
 
 import Footer from "./Footer";
 import Form from "./Form";
+import { Routes,Route , Router} from "react-router-dom";
 
 
 const Portfolio = () => {
     return ( 
-        <div className=" bg-gray-100 antialiased">
+
+    <Router>
+      <Routes>
+        <Route exact path="/" element={Hero} />
+        <Route exact path="/projects" element={Projects} />
+      </Routes>
+    </Router>
+
+        // <div className=" bg-gray-100 antialiased">
             
-            <Navbar  />
-            {/* <hr className="gray-700 h-0 "></hr> */}
-             <Hero />
-             <About />
-             <Projects  />
-             <Form/>
-             <Footer /> 
-           {/*  
-          <div className="bg-gray-100"> 
+        //      <Navbar  />
+        //      <Hero />
+        //      <About />
+        //      <Projects  />
+        //      <Form/>
+        //      <Footer /> 
            
-            </div>
-          
-           */}
-        </div>
+
+        // </div>
      );
 }
  
