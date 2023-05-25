@@ -29,7 +29,7 @@ function App() {
 
   return (
 
-      <div className={`app ${darkMode ? 'dark' : ''}`}>
+    <div className={`app ${darkMode ? 'dark' : ''}`}>
         <Navbar
           scrollToRef={scrollToRef}
           heroRef={heroRef}

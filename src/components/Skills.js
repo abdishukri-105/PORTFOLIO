@@ -5,10 +5,12 @@ const Skills = () => {
     <div className="flex flex-wrap">
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">HTML</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">CSS</div>
+      <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">Bootstrap</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">JavaScript</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">Figma</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">React</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">SASS</div>
+      <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2"> TailWind CSS</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">GIT</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">Github</div>
       <div className="bg-gray-200 text-black px-4 py-2 rounded-md m-2">Responsive Design</div>
