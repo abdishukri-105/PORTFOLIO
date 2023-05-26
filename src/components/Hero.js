@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex lg:mb-40 ">
+    <div className="h-screen  flex lg:mb-40 ">
       <div className="flex-shrink-0 w-1/8 mt-64 hidden lg:block">
         <Contact />
       </div>
