@@ -1,25 +1,32 @@
 import React, { useState } from "react";
 
-const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
+const Navbar = ({darkMode, toggleDarkMode}) => {
 
-  const navbarStyle = {
-    position: "fixed",
-    top: 0,
-    zIndex: 50,
-    backgroundColor: "white",
-    width: "100%",
-  
-  };
+    const [navbar, setNavbar] = useState(false);
 
+    // const navbarStyle = {
+    //   position: "fixed",
+    //   top: 0,
+    //   zIndex: 50,
+    //   backgroundColor: darkMode ? "#4C4F52" : "white",
+    //   color: darkMode ? "white" : "black",
+    //   width: "100%",
+    // };
+
+    const navbarClasses = `fixed top-0 z-50 w-full ${
+        darkMode ? "bg-gray-800 text-gray-100" : "bg-white text-black"
+      }`;
+    
+    
   return (
     <header>
-     <nav style={navbarStyle} className="shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0 bg-white">
+     {/* <nav style={navbarStyle} className="shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0 bg-white"> */}
+     <nav className={`${navbarClasses} shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0`}>
         <div className="justify-between px-4 py-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-3 md:block">
               <a href="">
-                <h3 className="text-xl text-black font-bold">
+                <h3 className="text-xl dark:text-white text-black font-bold">
                   Abdishukri Mohamed
                 </h3>
               </a>
@@ -67,7 +74,7 @@ const Navbar = () => {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center uppercase font-semibold justify-center text-black space-y-8 md:flex md:space-x-16 md:space-y-0">
+              <ul className="items-center uppercase font-semibold justify-center text-black dark:text-white space-y-8 md:flex md:space-x-16 md:space-y-0">
                 <li className="hover:text-purple-500">
                   <a href="">Home</a>
                 </li>
@@ -80,6 +87,9 @@ const Navbar = () => {
                 <li className="hover:text-purple-500">
                   <a href="">contact</a>
                 </li>
+                <li onClick={toggleDarkMode} className="hover:text-purple-500">
+                      {darkMode ? 'Light Mode' : 'Dark Mode'}
+                 </li>
                 {/* <li className="border px-4 py-2 text-purple-600 font-bold rounded-2xl border-purple-600 border-spacing-4 ">
                                 <a href="" className="text-xl">connect</a>
                             </li>  */}

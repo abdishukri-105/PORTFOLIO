@@ -13,11 +13,11 @@ const Hero = () => {
         <Contact />
       </div>
       <div className="flex flex-col justify-center items-center flex-grow mt-10 lg:mt-40">
-        <div className="text-black  w-full p-5 mb-7">
+        <div className="text-black dark:text-white  w-full p-5 mb-7">
           <h1 className="font-sans tracking-widest font-black text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-10">
             <strong style={{ fontWeight: "bolder" }}>HEY, I'M Abdishukri Mohamed</strong>
           </h1>
-          <p className="lg:ml-44 text-center prose sm:text-xl">
+          <p className="lg:ml-44 text-center dark:text-gray-200 prose sm:text-xl">
             A Full Stack Developer experienced in React and Rails. BScIT graduate and Moringa School alumni, currently studying AWS Cloud.
           </p>
         </div>

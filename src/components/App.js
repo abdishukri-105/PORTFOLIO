@@ -15,7 +15,7 @@ function App() {
   const projectsRef = useRef(null);
   const formRef = useRef(null);
 
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(false)
 
   const scrollToRef = (ref) => {
     if (ref && ref.current) {
@@ -23,14 +23,15 @@ function App() {
     }
   };
 
-  const toggleDarkMode = () => {
-    setDarkMode((prevMode) => !prevMode);
-  };
+  function toggleDarkMode() {
+    setDarkMode(prevDarkMode => !prevDarkMode)
+}
 
   return (
 
     <div className={`app ${darkMode ? 'dark' : ''}`}>
         <Navbar
+          darkMode={darkMode} 
           scrollToRef={scrollToRef}
           heroRef={heroRef}
           aboutRef={aboutRef}
@@ -40,7 +41,7 @@ function App() {
         />
         <Hero ref={heroRef} />
         <About ref={aboutRef} />
-        <Projects ref={projectsRef} />
+        {/* <Projects ref={projectsRef} /> */}
         <Form ref={formRef} />
         <Footer />
       </div>

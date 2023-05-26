@@ -43,7 +43,7 @@ const Form = () => {
   return (
     <section>
       <div className="mb-20">
-        <h2 className="text-center text-4xl font-bold">CONTACT</h2>
+        <h2 className="text-center  text-4xl font-bold ">CONTACT</h2>
         <p className="text-center">
           Interested in working together? We should queue up a time to chat. I'll buy the coffee.
         </p>
@@ -53,7 +53,7 @@ const Form = () => {
 
       <form
         onSubmit={handleSubmit}
-        className="lg:w-2/3 md:w-3/4 sm:3/4 bg-white shadow-lg p-8 rounded-lg mx-auto mt-8"
+        className="lg:w-2/3 md:w-3/4 sm:3/4 bg-white dark:bg-gray-800 shadow-lg p-8 rounded-lg mx-auto mt-8"
       >
         <div className="mb-10">
           <label htmlFor="first_name" className="block mb-2 font-bold">
@@ -63,9 +63,9 @@ const Form = () => {
             type="text"
             id="first_name"
             name="first_name"
-            className="w-full px-6 py-5 border border-gray-300 rounded-md focus:outline-none bg-gray-200"
+            className="w-full px-6 py-5  border-gray-300 dark:bg-gray-700 rounded-md focus:outline-none bg-gray-200"
             placeholder="Enter your first name"
-            value={formValues.first_name}
+            value={formValues.first_name}  
             onChange={handleChange}
             required
           />
@@ -79,7 +79,7 @@ const Form = () => {
             type="text"
             id="last_name"
             name="last_name"
-            className="w-full px-6 py-5 border border-gray-300 rounded-md focus:outline-none bg-gray-200"
+            className="w-full px-6 py-5  border-gray-300 dark:bg-gray-700  rounded-md focus:outline-none bg-gray-200"
             placeholder="Enter your last name"
             value={formValues.last_name}
             onChange={handleChange}
@@ -95,7 +95,7 @@ const Form = () => {
             type="email"
             id="email"
             name="email"
-            className="w-full px-6 py-5 border border-gray-300 rounded-md focus:outline-none bg-gray-200"
+            className="w-full px-6 py-5  dark:bg-gray-700 rounded-md focus:outline-none bg-gray-200"
             placeholder="Enter your email"
             value={formValues.email}
             onChange={handleChange}
@@ -111,7 +111,7 @@ const Form = () => {
             id="message"
             name="message"
             rows="4"
-            className="w-full px-6 py-5 border border-gray-300 rounded-md focus:outline-none bg-gray-200"
+            className="w-full px-6 py-5   dark:bg-gray-700 rounded-md focus:outline-none bg-gray-200"
             placeholder="Enter your message"
             value={formValues.message}
             onChange={handleChange}
@@ -131,7 +131,7 @@ const Form = () => {
           {message}
         </p>
       )}
-      
+
       </form>
     </section>
   );
