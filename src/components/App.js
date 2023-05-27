@@ -41,7 +41,7 @@ function App() {
         />
         <Hero ref={heroRef} />
         <About ref={aboutRef} />
-        {/* <Projects ref={projectsRef} /> */}
+         {/* <Projects ref={projectsRef} /> */}
         <Form ref={formRef} />
         <Footer />
       </div>

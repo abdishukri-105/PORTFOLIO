@@ -1,27 +1,17 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = ({darkMode, toggleDarkMode}) => {
+const Navbar = ({ darkMode, toggleDarkMode }) => {
+  const [navbar, setNavbar] = useState(false);
 
-    const [navbar, setNavbar] = useState(false);
+  const navbarClasses = `fixed top-0 z-50 w-full ${
+    darkMode ? "bg-gray-800 text-gray-100" : "bg-white text-black"
+  }`;
 
-    // const navbarStyle = {
-    //   position: "fixed",
-    //   top: 0,
-    //   zIndex: 50,
-    //   backgroundColor: darkMode ? "#4C4F52" : "white",
-    //   color: darkMode ? "white" : "black",
-    //   width: "100%",
-    // };
-
-    const navbarClasses = `fixed top-0 z-50 w-full ${
-        darkMode ? "bg-gray-800 text-gray-100" : "bg-white text-black"
-      }`;
-    
-    
   return (
     <header>
-     {/* <nav style={navbarStyle} className="shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0 bg-white"> */}
-     <nav className={`${navbarClasses} shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0`}>
+      <nav className={`${navbarClasses} shadow-xl md:border-gray-800 md:border- md:border-t-0 md:border-r-0 md:border-l-0`}>
         <div className="justify-between px-4 py-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-3 md:block">
@@ -36,33 +26,9 @@ const Navbar = ({darkMode, toggleDarkMode}) => {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
+                    <FontAwesomeIcon icon={faToggleOn} className="w-6 h-6" />
                   ) : (
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4 6h16M4 12h16M4 18h16"
-                      />
-                    </svg>
+                    <FontAwesomeIcon icon={faToggleOff} className="w-6 h-6" />
                   )}
                 </button>
               </div>
@@ -87,12 +53,13 @@ const Navbar = ({darkMode, toggleDarkMode}) => {
                 <li className="hover:text-purple-500">
                   <a href="">contact</a>
                 </li>
-                <li onClick={toggleDarkMode} className="hover:text-purple-500">
-                      {darkMode ? 'Light Mode' : 'Dark Mode'}
-                 </li>
-                {/* <li className="border px-4 py-2 text-purple-600 font-bold rounded-2xl border-purple-600 border-spacing-4 ">
-                                <a href="" className="text-xl">connect</a>
-                            </li>  */}
+                <li onClick={toggleDarkMode} className="hover:text-purple-">
+                  {darkMode ? (
+                    <FontAwesomeIcon icon={faToggleOn} className="w-10 h-10" />
+                  ) : (
+                    <FontAwesomeIcon icon={faToggleOff} className="w-10 h-10" />
+                  )}
+                </li>
               </ul>
             </div>
           </div>
