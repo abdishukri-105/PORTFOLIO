@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
-  const [navbar, setNavbar] = useState(false);
+  
+const [navbar, setNavbar] = useState(false);
 
   const navbarClasses = `fixed top-0 z-50 w-full ${
     darkMode ? "bg-gray-800 text-gray-100" : "bg-white text-black"
@@ -26,9 +28,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <FontAwesomeIcon icon={faToggleOn} className="w-6 h-6" />
+                   <FontAwesomeIcon icon={faBars} />
                   ) : (
-                    <FontAwesomeIcon icon={faToggleOff} className="w-6 h-6" />
+                    <FontAwesomeIcon icon={faBars} />
                   )}
                 </button>
               </div>
@@ -55,9 +57,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                 </li>
                 <li onClick={toggleDarkMode} className="hover:text-purple-">
                   {darkMode ? (
-                    <FontAwesomeIcon icon={faToggleOn} className="w-10 h-10" />
+                    <FontAwesomeIcon icon={faMoon} className="w-6 h-6" />
                   ) : (
-                    <FontAwesomeIcon icon={faToggleOff} className="w-10 h-10" />
+                    <FontAwesomeIcon icon={faSun} className="w-6 h-6" />
                   )}
                 </li>
               </ul>

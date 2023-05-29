@@ -19,7 +19,7 @@ const About = () => {
             <h1 className="font-black dark:text-gray-100  text-2xl mb-10 font-inherit">Get to know me!</h1>
           
            <p className="mb-3 dark:text-gray-100 ">I am a passionate <span className="font-bold">full-stack web developer </span> who thrives on continuous exploration 
-            and learning. While I may not have extensive experience, I take pride in the projects 
+            and learning.    While I may not have extensive experience, I take pride in the projects 
             I have worked on and accomplished. Check out some of my work in the <span className="font-bold">Projects</span>  section. </p>  
 
             <p className="mb-3 dark:text-gray-100 ">Coding   holds a special place in my heart, and I find joy in the process of creating impactful
