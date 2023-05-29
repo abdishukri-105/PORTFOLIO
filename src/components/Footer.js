@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-black text-white p-4 mt-20 border-gray-800 border-t-2 md:border-b-0 md:border-r-0 md:border-l-0">
+    <footer className="bg-slate-900 text-white p-4 mt-20 border-gray-800 border-t-2 md:border-b-0 md:border-r-0 md:border-l-0">
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-between">
         <div className="text-lg mb-4">
           &copy; 2023: <span className="font-bold">Abdishukri Mohamed</span>

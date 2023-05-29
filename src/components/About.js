@@ -30,7 +30,7 @@ const About = () => {
              and grow. If you have a promising opportunity that aligns with my skills and experience,
               I would be thrilled to hear from you. Please feel free to reach out and <span className="font-bold">contact  </span> me without hesitation.</p>        
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 ">
             <Skills />
           </div>
         </div>
