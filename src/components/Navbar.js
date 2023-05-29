@@ -42,7 +42,7 @@ const [navbar, setNavbar] = useState(false);
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center uppercase font-semibold justify-center text-black dark:text-white space-y-8 md:flex md:space-x-16 md:space-y-0">
+              <ul className="items-center  lg:uppercase font-semibold justify-center text-black dark:text-white space-y-8 md:flex md:space-x-16 md:space-y-0">
                 <li className="hover:text-purple-500">
                   <a href="">Home</a>
                 </li>
