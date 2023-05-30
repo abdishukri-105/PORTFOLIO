@@ -7,7 +7,6 @@ import article254 from "../images/article254.png";
 import call from "../images/call.jpg";
 
 const projects = [
-
   {
     image: beautybliss,
     title: 'Beauty Bliss',
@@ -59,11 +58,11 @@ const Projects = () => {
               src={project.image}
               alt={project.title}
             />
-            <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center opacity-80 transition-opacity duration-700 bg-blue-900 bg-opacity-100 rounded-xl hover:opacity-100">
+            <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center opacity-100 transition-opacity duration-700 bg-blue-900 bg-opacity-100 rounded-xl hover:opacity-90">
               <h3 className="text-white mb-4 text-center text-xl font-bold">
                 {project.title}
               </h3>
-              <div className="hover:opacity-100 transition-opacity duration-300">
+              <div className="hover:opacity-100 transition-opacity duration-500">
                 <p className="text-white text-center">{project.description}</p>
                 <div className="mt-9 text-center">
                   <a
