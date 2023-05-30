@@ -1,8 +1,8 @@
 const Skills = () => {
     return ( 
- <div className="">
+ <div className="p-5 lg:p-2">
            <h1 className="text-black font-black mb-8 dark:text-gray-100  text-2xl">My Skills</h1>
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap ">
       <div className="bg-gray-200 dark:bg-slate-800 dark:text-gray-100 text-black px-4 py-2 rounded-md m-2">HTML</div>
       <div className="bg-gray-200 dark:bg-slate-800 dark:text-gray-100 text-black px-4 py-2 rounded-md m-2">CSS</div>
       <div className="bg-gray-200 dark:bg-slate-800 dark:text-gray-100 text-black px-4 py-2 rounded-md m-2">Bootstrap</div>
