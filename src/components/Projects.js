@@ -1,6 +1,6 @@
 import React from 'react';
 import loops from "../images/loopstudios.jpg";
-import ecommerce from "../images/e-commerce-screenshot.png";
+import beautybliss from "../images/Beautybliss.png";
 import advice from "../images/active-states.jpg";
 import desktop from "../images/desktop-preview.jpg";
 import shukri from "../images/shukri.jpg";
@@ -15,11 +15,11 @@ const projects = [
     websiteLink: 'https://example.com/loopstudios-demo',
   },
   {
-    image: loops,
-    title: 'Loopstudios Landing Page',
-    description: 'This is a small project that I did from Frontend Mentor',
+    image: beautybliss,
+    title: 'Beauty Bliss',
+    description: 'An E-commerce application built with Rails API and React',
     githubLink: 'https://github.com/your-username/loopstudios',
-    websiteLink: 'https://example.com/loopstudios-demo',
+    websiteLink: 'https://beauty-bliss-ul2a.vercel.app/',
   },
   
 ];
@@ -35,34 +35,26 @@ const Projects = () => {
         </p>
       </div>
 
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <div className="max-w-screen-xl py-10 mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
         {projects.map((project, index) => (
-          <div key={index} className="relative h-56">
-            <div
-              className="bg-cover bg-center h-full rounded-xl hover:bg-purple-800 hover:bg-opacity-80 hover:cursor-pointer transform transition-transform duration-300"
-              style={{ backgroundImage: `url(${project.image})` }}
-            ></div>
-            <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center opacity-0 transition-opacity duration-300 bg-blue-900 bg-opacity-80 rounded-xl hover:opacity-100">
+          <div key={index} className="relative h-64">
+            <img
+              className="object-cover w-full h-full rounded-xl"
+              src={project.image}
+              alt={project.title}
+            />
+            <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center opacity-80 transition-opacity duration-700 bg-blue-900 bg-opacity-100 rounded-xl hover:opacity-100">
               <h3 className="text-white mb-4 text-center text-xl font-bold">
                 {project.title}
               </h3>
-              <div className=" hover:opacity-100 transition-opacity duration-300">
+              <div className="hover:opacity-100 transition-opacity duration-300">
                 <p className="text-white text-center">{project.description}</p>
                 <div className="mt-9 text-center">
-                  {/* <a
-                    href={project.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-white"
-                  >
-                    GitHub Repo
-                  </a>
-                  <span className="mx-2 text-gray-300">|</span> */}
                   <a
                     href={project.websiteLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-5  py-3  border-2 border-purple-900 rounded-full text-white hover:bg-purple-900"
+                    className="px-5 py-3 border-2 border-purple-900 rounded-full text-white hover:bg-purple-900"
                   >
                     Visit Website
                   </a>
@@ -77,6 +69,9 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+
 
 
 
