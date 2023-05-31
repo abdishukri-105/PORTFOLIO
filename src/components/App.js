@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import '../App.css';
-import Portfolio from './Portfolio';
 import About from './About';
 import Hero from './Hero';
 import Navbar from './Navbar';

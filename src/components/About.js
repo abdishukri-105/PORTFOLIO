@@ -12,7 +12,7 @@ const About = () => {
        
       <p className="text-center  text-lg mx-auto max-w-2xl mb-6">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
        
-            <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center">
         <div className="flex flex-col md:flex-row justify-between max-h-screen p-2 sm:p-8 md:p-12 lg:p-12 xl:p-12">
           <div className="text-black md:ml-0 md:pt-0 md:leading-9 rounded-2xl xl:text-start md:text-start lg:text-start sm:text-start p-8 sm:p-5 md:w-1/2">
             <h1 className="font-black dark:text-gray-100 text-2xl mb-10 font-inherit">Get to know me!</h1>
