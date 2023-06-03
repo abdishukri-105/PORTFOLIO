@@ -19,6 +19,7 @@ const Skills = () => {
       <div className="bg-gray-200 dark:bg-slate-800 dark:text-gray-100 text-black px-4 py-2 rounded-md m-2">Ruby</div>
       <div className="bg-gray-200 dark:bg-slate-800 dark:text-gray-100 text-black px-4 py-2 rounded-md m-2">Ruby on Rails </div>
       <div className="bg-gray-200 dark:bg-slate-800 dark:text-gray-100 text-black px-4 py-2 rounded-md m-2">SQL Basics</div>
+      <div className="bg-gray-200 dark:bg-slate-800 dark:text-gray-100 text-black px-4 py-2 rounded-md m-2">Python</div>
     </div>
   </div> 
 );

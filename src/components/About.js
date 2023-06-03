@@ -10,7 +10,7 @@ const About = () => {
         About Me
       </h2>
        
-      <p className="text-center  text-lg mx-auto max-w-2xl mb-6">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+      <p className= "text-center  text-lg mx-auto max-w-2xl mb-6">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
        
       <div className="flex justify-center items-center">
         <div className="flex flex-col md:flex-row justify-between max-h-screen p-2 sm:p-8 md:p-12 lg:p-12 xl:p-12">
