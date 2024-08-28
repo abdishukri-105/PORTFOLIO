@@ -4,7 +4,6 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/UI/Hero";
 import "./App.css";
-import Services from "./components/UI/Services";
 import Portfolio from "./components/UI/portfolio";
 import Contact from "./components/UI/Contact";
 import About from "./components/UI/About";
@@ -31,7 +30,7 @@ function App() {
    <Hero />
    <FloatingIcons />
    <About />
-   {/* <Services /> */}
+  
    <Myservices />
    <Projects />
    {/* <Portfolio /> */}

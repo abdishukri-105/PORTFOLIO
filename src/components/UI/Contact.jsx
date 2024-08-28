@@ -9,7 +9,6 @@ const Contact = () => {
     message: '',
   });
 
-  // const [message, setMessage] = useState(null);
 
   const handleChange = (e) => {
     setFormValues({ ...formValues, [e.target.name]: e.target.value });
