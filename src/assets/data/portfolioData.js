@@ -1,5 +1,5 @@
-import portfolioImg01 from "../images/Beautybliss.png";
-import portfolioImg02 from "../images/HAHA-HUB.png";
+import portfolioImg01 from "../images/amalhero1.png";
+import portfolioImg02 from "../images/kuria.png";
 import portfolioImg03 from "../images/hanan.png";
 import portfolioImg04 from "../images/article254.png";
 import portfolioImg08 from "../images/osam.png";
@@ -10,8 +10,18 @@ import portfolioImg07 from "../images/intelli.jpg";
 import portfolioImg09 from "../images/misky.png";
 import portfolioImg10 from "../images/albaqarah.png";
 
-
+  
 const portfolios = [
+  {
+    id: "05",
+    imgUrl: portfolioImg01,
+    category: "Web Design",
+    title: "Amal Mohamed - website design and dev",
+    description:
+    "I designed and developed a comprehensive online platform to showcase Amal Mohamed's literary works, advocacy initiatives, and multimedia content. The platform offers a user-friendly experience, allowing visitors to easily navigate and engage with her content",
+    technologies: ["React", "Tailwind css", "Next.js", "UI/UX Prototyping", "JavaScript"],
+    siteUrl: "https://amal-moha.vercel.app/",
+  },
   {
     id: "01",
     imgUrl: portfolioImg03,
@@ -60,25 +70,16 @@ const portfolios = [
     technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
     siteUrl: "https://osam-cabinet.vercel.app/",
   },
-  {
-    id: "05",
-    imgUrl: portfolioImg01,
-    category: "Web Design",
-    title: "Beauty Bliss",
-    description:
-    " Beauty Bliss is an e-commerce beauty shop powered by Rails API and React. It offers a wide range of products, including skincare, makeup, and haircare. With an admin section for inventory management and order tracking, it ensures efficient operations.",
-    technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
-    siteUrl: "https://beauty-bliss-ul2a.vercel.app/",
-  },
+  
   {
     id: "06",
     imgUrl: portfolioImg02,
     category: "web design",
-    title: "Meme Generator",
+    title: "Kuria Girl Child Development Center",
     description:
-      "Haha Hub is a web application that brings laughter to users by allowing them to create and view memes. It serves as a platform where people can go to have a good laugh. This Rails and React-based meme generator app was developed as a project during Moringa School.",
+      "I developed a website for the Kuria Girl Child Development Centre (KGCDC), enhancing their ability to combat Female Genital Mutilation/Cutting (FGM/C) and child marriages. The site amplifies KGCDC's outreach, advocacy, and fundraising efforts, empowering the organization to better protect and uplift girls and women in their community.",
     technologies: ["React", "Tailwind css", "Rails", "SQLite"],
-    siteUrl: "https://haha-hub.vercel.app/",
+    siteUrl: "https://kgcdc.vercel.app/",
   },
   // {
   //   id: "06",

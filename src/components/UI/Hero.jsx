@@ -1,4 +1,4 @@
-import heroimg from '../../assets/images/hero.svg'
+
 import shukri from '../../assets/images/shukri.webp'
 import shukri2 from '../../assets/images/shukri2.jpg'
 import CountUp from 'react-countup'
