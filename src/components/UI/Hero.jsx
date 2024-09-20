@@ -1,5 +1,6 @@
 import shukri from "../../assets/images/shukri.webp";
 import CountUp from "react-countup";
+import DoubleScrollingLogos from "./Logos";
 
 const Hero = () => {
   return (
@@ -126,6 +127,7 @@ const Hero = () => {
               ></img>
             </figure>
           </div>
+         
           {/* ======= hero img end ======== */}
           {/* ======= hero content right ======== */}
 
@@ -156,6 +158,7 @@ const Hero = () => {
                     </div>
                 </div> */}
         </div>
+        {/* <DoubleScrollingLogos /> */}
       </div>
     </section>
   );

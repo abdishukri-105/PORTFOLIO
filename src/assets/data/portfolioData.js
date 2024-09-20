@@ -1,11 +1,21 @@
 import portfolioImg01 from "../images/amalhero1.png";
-import portfolioImg02 from "../images/kuria.png";
 import portfolioImg03 from "../images/hanan.png";
 import portfolioImg08 from "../images/osam.png";
 import portfolioImg09 from "../images/misky.png";
 import portfolioImg10 from "../images/albaqarah.png";
+import kewafric from "../images/kewafric.png"
 
 const portfolios = [
+  {
+    id: "06",
+    imgUrl: kewafric,
+    category: "web design",
+    title: "kewafric international limited",
+    description:
+        "Developed a Next.js website with Supabase backend for Kewafric International Limited, an HR recruitment company. Features include a public job application system and a secure admin section for managing job postings and applications, streamlining the recruitment process for international opportunities.",
+    technologies: ["React", "Tailwind css", "Supabase", "Next js"],
+    siteUrl: "https://kewafric.com/",
+  },
   {
     id: "05",
     imgUrl: portfolioImg01,
@@ -69,16 +79,7 @@ const portfolios = [
     siteUrl: "https://osam-cabinet.vercel.app/",
   },
 
-  {
-    id: "06",
-    imgUrl: portfolioImg02,
-    category: "web design",
-    title: "Kuria Girl Child Development Center",
-    description:
-      "I developed a website for the Kuria Girl Child Development Centre (KGCDC), enhancing their ability to combat Female Genital Mutilation/Cutting (FGM/C) and child marriages. The site amplifies KGCDC's outreach, advocacy, and fundraising efforts, empowering the organization to better protect and uplift girls and women in their community.",
-    technologies: ["React", "Tailwind css", "Rails", "SQLite"],
-    siteUrl: "https://kgcdc.vercel.app/",
-  },
+
 ];
 
 export default portfolios;

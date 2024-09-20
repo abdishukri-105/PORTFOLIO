@@ -16,6 +16,7 @@ import Myservices from "./components/UI/Myservices"
 
 
 import { Helmet } from 'react-helmet-async';
+import DoubleScrollingLogos from "./components/UI/Logos";
 
 function App() {
   useEffect(() => {
