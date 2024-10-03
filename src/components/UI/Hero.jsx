@@ -54,13 +54,13 @@ const Hero = () => {
                   <i class="ri-mail-line"></i>Hire me
                 </button>
               </a>
-              <a
+              {/* <a
                 href="/path/to/your/resume.pdf"
                 download
                 className="text-smallTextColor font-[600] text-[19px] border-b border-solid border-smallTextColor"
               >
                 see portfolio
-              </a>
+              </a> */}
             </div>
             <div className="flex items-center gap-9 mt-6">
               <span className="text-smallTextColor text-[19px] font-[600]">
